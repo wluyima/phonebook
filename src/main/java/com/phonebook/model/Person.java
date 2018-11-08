@@ -32,4 +32,40 @@ public class Person extends BasePersistentEntity {
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
+	
+	/**
+	 * Gets the lastName
+	 *
+	 * @return the lastName
+	 */
+	public String getLastName() {
+		return lastName;
+	}
+	
+	/**
+	 * Sets the lastName
+	 *
+	 * @param lastName the lastName to set
+	 */
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
+	/**
+	 * Gets the phoneNumber
+	 *
+	 * @return the phoneNumber
+	 */
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+	
+	/**
+	 * Sets the phoneNumber
+	 *
+	 * @param phoneNumber the phoneNumber to set
+	 */
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
 }
