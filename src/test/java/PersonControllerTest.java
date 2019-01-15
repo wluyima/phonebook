@@ -48,7 +48,7 @@ public class PersonControllerTest {
 		RequestBuilder request = get(SUB_PATH);
 		ResultActions resultActions = mockMvc.perform(request);
 		resultActions.andExpect(status().isOk());
-		resultActions.andExpect(jsonPath("length()", equalTo(0)));
+		resultActions.andExpect(jsonPath("length()", equalTo(1)));
 		
 	}
 	
